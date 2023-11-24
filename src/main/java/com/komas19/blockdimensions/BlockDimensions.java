@@ -1,5 +1,6 @@
 package com.komas19.blockdimensions;
 
+import com.komas19.blockdimensions.block.ModBlocks;
 import com.komas19.blockdimensions.item.ModItems;
 import com.komas19.blockdimensions.item.ModItemsGroup;
 import net.fabricmc.api.ModInitializer;
@@ -23,5 +24,6 @@ public class BlockDimensions implements ModInitializer {
 		LOGGER.info("Loading Block Dimensions!");
 		ModItemsGroup.registerItemGroups();
         ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

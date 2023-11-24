@@ -1,6 +1,7 @@
 package com.komas19.blockdimensions.item;
 
 import com.komas19.blockdimensions.BlockDimensions;
+import com.komas19.blockdimensions.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -13,6 +14,10 @@ public class ModItemsGroup {
 
     public static final ItemGroup BLOCK_DIMENSIONS = Registry.register(Registries.ITEM_GROUP, new Identifier(BlockDimensions.MOD_ID, "portal_igniter"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.blockdimensions")).icon(() -> new ItemStack(ModItems.IGNITER)).entries((displayContext, entries) -> {
         entries.add(ModItems.IGNITER);
+
+        entries.add(ModBlocks.COMPRESSED_STONE);
+        entries.add(ModBlocks.COMPRESSED_COBBLESTONE);
+        entries.add(ModBlocks.COMPRESSED_COAL_ORE);
 
     }).build());
     public static void registerItemGroups() {
