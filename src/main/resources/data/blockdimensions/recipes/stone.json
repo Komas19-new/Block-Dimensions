@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+    "item": "blockdimensions:compressed_stone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone",
+    "count": 9
+  }
+}

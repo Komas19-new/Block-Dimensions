@@ -3,5 +3,6 @@
   "block.blockdimensions.compressed_stone": "Compressed Stone",
   "block.blockdimensions.compressed_cobblestone": "Compressed Cobblestone",
   "block.blockdimensions.compressed_coal_ore": "Compressed Coal Ore",
+  "block.blockdimensions.compressed_cyan_wool": "Compressed Cyan Wool",
   "itemgroup.blockdimensions": "Block Dimensions"
 }

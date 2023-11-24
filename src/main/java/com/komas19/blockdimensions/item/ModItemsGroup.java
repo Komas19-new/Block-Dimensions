@@ -18,6 +18,7 @@ public class ModItemsGroup {
         entries.add(ModBlocks.COMPRESSED_STONE);
         entries.add(ModBlocks.COMPRESSED_COBBLESTONE);
         entries.add(ModBlocks.COMPRESSED_COAL_ORE);
+        entries.add(ModBlocks.COMPRESSED_CYAN_WOOL);
 
     }).build());
     public static void registerItemGroups() {

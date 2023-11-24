@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal_ore"
+    }
+  },
+  "result": {
+    "item": "blockdimensions:compressed_coal_ore"
+  }
+}
