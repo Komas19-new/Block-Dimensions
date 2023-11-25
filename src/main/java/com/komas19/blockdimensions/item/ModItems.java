@@ -12,9 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item IGNITER = registerItem("portal_igniter", new Item(new FabricItemSettings()));
+    public static final Item IGNITING = registerItem("igniting", new Item(new FabricItemSettings()));
 
-    private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {
+    private static void addItemToSearchItemGroup(FabricItemGroupEntries entries) {
+
         entries.add(IGNITER);
+        entries.add(IGNITING);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BlockDimensions.MOD_ID, name), item);
@@ -23,6 +26,6 @@ public class ModItems {
     public static void registerModItems() {
         BlockDimensions.LOGGER.info("Registering mod items for " + BlockDimensions.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SEARCH).register(ModItems::addItemToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SEARCH).register(ModItems::addItemToSearchItemGroup);
     }
 }

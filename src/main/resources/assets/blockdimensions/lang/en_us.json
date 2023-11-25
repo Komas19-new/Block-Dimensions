@@ -1,5 +1,7 @@
 {
   "item.blockdimensions.portal_igniter": "Portal Igniter",
+  "item.blockdimensions.igniting": "Igniting",
+  "block.blockdimensions.igniting_ore": "Igniting Ore",
   "block.blockdimensions.compressed_stone": "Compressed Stone",
   "block.blockdimensions.compressed_cobblestone": "Compressed Cobblestone",
   "block.blockdimensions.compressed_coal_ore": "Compressed Coal Ore",
