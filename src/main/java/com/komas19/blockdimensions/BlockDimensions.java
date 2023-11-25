@@ -3,6 +3,7 @@ package com.komas19.blockdimensions;
 import com.komas19.blockdimensions.block.ModBlocks;
 import com.komas19.blockdimensions.item.ModItems;
 import com.komas19.blockdimensions.item.ModItemsGroup;
+import com.komas19.blockdimensions.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -25,5 +26,6 @@ public class BlockDimensions implements ModInitializer {
 		ModItemsGroup.registerItemGroups();
         ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

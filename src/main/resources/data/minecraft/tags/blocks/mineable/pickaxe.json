@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "blockdimensions:igniting_ore",
+    "blockdimensions:compressed_stone",
+    "blockdimensions:compressed_cobblestone",
+    "blockdimensions:compressed_coal_ore"
+  ]
+}

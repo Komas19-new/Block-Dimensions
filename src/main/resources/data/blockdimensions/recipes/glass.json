@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+    "item": "blockdimensions:compressed_glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glass",
+    "count": 9
+  }
+}

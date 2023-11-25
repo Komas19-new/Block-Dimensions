@@ -14,11 +14,15 @@ public class ModItemsGroup {
 
     public static final ItemGroup BLOCK_DIMENSIONS = Registry.register(Registries.ITEM_GROUP, new Identifier(BlockDimensions.MOD_ID, "portal_igniter"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.blockdimensions")).icon(() -> new ItemStack(ModItems.IGNITER)).entries((displayContext, entries) -> {
         entries.add(ModItems.IGNITER);
+        entries.add(ModItems.IGNITING);
 
+        entries.add(ModBlocks.IGNITING_ORE);
         entries.add(ModBlocks.COMPRESSED_STONE);
         entries.add(ModBlocks.COMPRESSED_COBBLESTONE);
         entries.add(ModBlocks.COMPRESSED_COAL_ORE);
         entries.add(ModBlocks.COMPRESSED_CYAN_WOOL);
+        entries.add(ModBlocks.COMPRESSED_DIRT);
+        entries.add(ModBlocks.COMPRESSED_GLASS);
 
     }).build());
     public static void registerItemGroups() {
