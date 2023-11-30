@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blockdimensions:block/compressed_sponge"
+    }
+  }
+}

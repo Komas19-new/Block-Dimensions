@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "blockdimensions:compressed_dirt"
+    "blockdimensions:compressed_dirt",
+    "blockdimensions:compressed_gravel",
+    "blockdimensions:compressed_sand"
   ]
 }

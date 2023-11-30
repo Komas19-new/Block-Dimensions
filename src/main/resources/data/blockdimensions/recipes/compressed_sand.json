@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "blockdimensions:compressed_sand"
+  }
+}

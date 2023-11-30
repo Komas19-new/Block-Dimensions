@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+    "item": "blockdimensions:compressed_sponge"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sponge",
+    "count": 9
+  }
+}

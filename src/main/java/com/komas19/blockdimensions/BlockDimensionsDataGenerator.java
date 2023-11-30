@@ -3,6 +3,8 @@ package com.komas19.blockdimensions;
 import com.komas19.blockdimensions.datagen.*;
 import com.komas19.blockdimensions.world.ModConfiguredFeatures;
 import com.komas19.blockdimensions.world.ModPlacedFeatures;
+import com.komas19.blockdimensions.world.biome.ModBiomes;
+import com.komas19.blockdimensions.world.dimension.ModDimensions;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -20,5 +22,7 @@ public class BlockDimensionsDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::boostrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::boostrap);
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::boostrap);
+		registryBuilder.addRegistry(RegistryKeys.DIMENSION_TYPE, ModDimensions::bootstrapType);
 	}
 }

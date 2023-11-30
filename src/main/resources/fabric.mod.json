@@ -26,6 +26,9 @@
 		],
 		"rei_client": [
 			"com.komas19.blockdimensions.compat.BlockDimensionsREIClientPlugin"
+		],
+		"terrablender": [
+			"com.komas19.blockdimensions.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [

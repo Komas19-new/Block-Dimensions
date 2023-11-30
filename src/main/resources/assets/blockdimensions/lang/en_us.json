@@ -8,5 +8,7 @@
   "block.blockdimensions.compressed_cyan_wool": "Compressed Cyan Wool",
   "block.blockdimensions.compressed_dirt": "Compressed Dirt",
   "block.blockdimensions.compressed_glass": "Compressed Glass",
+  "block.blockdimensions.compressed_gravel": "Compressed Gravel",
+  "block.blockdimensions.compressed_sand": "Compressed Sand",
   "itemgroup.blockdimensions": "Block Dimensions"
 }

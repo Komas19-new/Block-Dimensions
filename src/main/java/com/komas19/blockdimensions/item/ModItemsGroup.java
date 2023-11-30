@@ -23,6 +23,8 @@ public class ModItemsGroup {
         entries.add(ModBlocks.COMPRESSED_CYAN_WOOL);
         entries.add(ModBlocks.COMPRESSED_DIRT);
         entries.add(ModBlocks.COMPRESSED_GLASS);
+        entries.add(ModBlocks.COMPRESSED_GRAVEL);
+        entries.add(ModBlocks.COMPRESSED_SAND);
 
     }).build());
     public static void registerItemGroups() {
