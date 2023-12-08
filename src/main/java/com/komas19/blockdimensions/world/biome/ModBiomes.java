@@ -29,6 +29,7 @@ public class ModBiomes {
         context.register(COMPRESSED_STONE_BIOME, biome(context));
         context.register(COMPRESSED_DIRT_BIOME, biome(context));
         context.register(COMPRESSED_GLASS_BIOME, biome(context));
+        context.register(COMPRESSED_CYAN_WOOL_BIOME, biome(context));
     }
 
     public static void globalOverworldGeneration(GenerationSettings.LookupBackedBuilder builder) {
